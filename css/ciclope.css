@@ -17,6 +17,10 @@
 	flex-direction: column;
 }
 
+.z-index{
+	z-index: 2;
+}
+
 .pointer{
 	cursor: pointer !important;
 }
@@ -167,14 +171,6 @@
 .col-3{
 	flex: 0 0 auto;
 	width: 30%;
-}
-.col-4{
-	flex: 0 0 auto;
-	width: 40%;
-}
-.col-5{
-	flex: 0 0 auto;
-	width: 50%;
 }
 .col-7{
 	flex: 0 0 auto;

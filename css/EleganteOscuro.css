@@ -1,0 +1,119 @@
+.elegante-oscuro{
+	background-color: #131313;
+	color: aliceblue;
+}
+
+/*Scroll*/
+.elegante-oscuro::-webkit-scrollbar{
+	width: 12px;
+	height: 12px;
+}
+.elegante-oscuro::-webkit-scrollbar-thumb{
+	background-color: #4b4b4b;
+	border-radius: 5px;
+}
+.elegante-oscuro::-webkit-scrollbar-thumb:hover{
+	background-color: aliceblue;
+}
+.elegante-oscuro::-webkit-scrollbar-thumb:active{
+	background-color: #1561f0;
+}
+
+/*Color de fondo*/
+.elegante-oscuro .fon-1{
+	background-color: #2b2b2b;
+	color: aliceblue;
+}
+.elegante-oscuro .fon-2{
+	background-color: #3b3b3b;
+	color: aliceblue;
+}
+.elegante-oscuro .fon-3{
+	background-color: #1561f0;
+	color: aliceblue;
+}
+
+/*Enlaces*/
+.elegante-oscuro .link-1{
+	color: aliceblue;
+	display: block;
+}
+.elegante-oscuro .link-1:hover{
+	color: #1561f0;
+}
+.elegante-oscuro .link-2{
+	color: aliceblue;
+	display: block;
+}
+.elegante-oscuro .link-2:hover{
+	background-color: #1561f0;
+	border: 2px solid #1561f0;
+}
+.elegante-oscuro .link-3{
+	background-color: #3b3b3b;
+	color: aliceblue;
+}
+.elegante-oscuro .link-3:hover{
+	background-color: #1561f0;
+}
+
+.elegante-oscuro .btn-oscuro{
+	color: #86868b;
+	background-color: #2b2b2b;
+}
+
+.elegante-oscuro .borde{
+	border: 2px solid aliceblue;
+}
+
+/*Hero de Imagenes*/
+.elegante-oscuro .hero::before{
+	background-color: rgba(134, 134, 139, 0.5);
+}
+
+/*Apartado de los cuentos*/
+.elegante-oscuro .text{
+	color: #86868b;
+}
+
+/*Etiqueta hr*/
+.elegante-oscuro .hr-1{
+	border-color: aliceblue;
+	background-color: aliceblue;
+}
+.elegante-oscuro .hr-2{
+	border-color: #1561f0;
+	background-color: #1561f0;
+}
+
+/*Boton ariba*/
+.elegante-oscuro .up:hover{
+	color: #1561f0;
+}
+
+/*cajas de contenido*/
+.elegante-oscuro .box-1{
+	background-color: rgba(19,19,19,0.6);
+}
+
+/*Color para el menu de hamburgesa*/
+.elegante-oscuro .bars--menu span{
+    background-color: aliceblue;
+}
+.elegante-oscuro .bars--menu:hover span{
+    background-color: #1561f0;
+}
+
+/*Color para el switch*/
+.elegante-oscuro .lbl-switch{
+	background-color: #3b3b3b;
+}
+.elegante-oscuro .lbl-switch::after{
+	background-color: aliceblue;
+}
+
+.elegante-oscuro #switch:checked ~ .lbl-switch,
+.elegante-oscuro #switch-1:checked ~ .lbl-switch, 
+.elegante-oscuro #switch-2:checked ~ .lbl-switch{
+	background-color: #1561f0;
+}

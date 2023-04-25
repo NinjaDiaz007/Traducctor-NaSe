@@ -10,7 +10,7 @@
 
     <div class="collapse navbar-collapse ml-3" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <!--<a class="nav-link link-1" href="#">Inicio</a>-->
+        <a class="nav-link link-1" href="./asercade.html">Acerca de</a>
             <a class="nav-link link-1" href="./nosotros.html">Nosotros</a>
             <!--<a class="nav-link link-1" href="#">Pricing</a>-->
 

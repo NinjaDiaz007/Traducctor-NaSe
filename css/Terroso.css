@@ -97,3 +97,11 @@
 .terroso .hero::before{
 	background-color: rgba(255,255,255,0.5);
 }
+
+/*=Imagenes en clases=*/
+.terroso .h-c-j{
+	width: 100%;
+}
+.terroso .h-c-j.img-h-c-j{
+	background-image: url("../img/html-css-javascript-terroso.svg");
+}
